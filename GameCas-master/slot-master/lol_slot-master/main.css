@@ -1,0 +1,235 @@
+@font-face {
+    font-family: font;
+    src: url(font/font.ttf);
+}
+#wrapp{
+	width:1200px;
+	height: 900px;
+	border: 1px solid black;
+	margin: 0px auto; 
+	background: url(http://i.imgur.com/pZghu8Q.jpg);
+	background-position: left;
+	border-radius: 5%;
+	background: url(img/ire.jpg);
+	background-size: cover;
+	position: relative;
+
+}
+#container{
+	width: 1000px;
+	height: 600px;
+	border: 1px solid gray;
+	margin: 10px 0px 10px 30px;
+	overflow: hidden;
+	position: relative;
+}
+.kolona{
+	position: absolute;
+	width: 200px;
+	height: 4200px;
+	box-sizing: border-box;
+	border: 1px solid #eee;
+	
+}
+.kolona1{
+	top: 0;
+	left: 0;
+}.kolona2{
+	top: 0;
+	left: 200px;
+}.kolona3{
+	top: 0;
+	left: 400px;
+}.kolona4{
+	top: 0;
+	left: 600px;
+}.kolona5{
+	top: 0;
+	left: 800px;
+}
+.box{
+	/*background: cadetblue;*/
+	width: 200px;
+	height: 200px;
+	box-sizing: border-box;
+	border: 1px solid black;
+}
+.newColumns1{
+	width: 200px;
+	height: 4200px;
+	box-sizing: border-box;
+	border: 1px solid black;
+	position: absolute;
+	top: -4200px;
+	left: 0;
+}
+.newColumns2{
+	width: 200px;
+	height: 4200px;
+	box-sizing: border-box;
+	border: 1px solid black;
+	position: absolute;
+	top: -4200px;
+	left: 200px;
+}
+.newColumns3{
+	width: 200px;
+	height: 4200px;
+	box-sizing: border-box;
+	border: 1px solid black;
+	position: absolute;
+	top: -4200px;
+	left: 400px;
+}
+.newColumns4{
+	width: 200px;
+	height: 4200px;
+	box-sizing: border-box;
+	border: 1px solid black;
+	position: absolute;
+	top: -4200px;
+	left: 600px;
+}
+.newColumns5{
+	width: 200px;
+	height: 4200px;
+	box-sizing: border-box;
+	border: 1px solid black;
+	position: absolute;
+	top: -4200px;
+	left: 800px;
+}
+#home{
+	width: 110px;
+	height: 110px;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+/*#coin{
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	left: 650px;
+	top: 70px;
+
+}*/
+button:focus {
+	outline:0;
+}
+
+
+#dugme{
+	width: 200px;
+	height: 100px;
+	font-family: font;
+	font-size: 50px;
+	border-radius: 20px;
+	box-shadow: 1px 1px 1px;
+	margin-left: 850px;
+	margin-top: 20px;
+}
+#chall{
+	width: 400px;
+	height: 100px;
+	position: absolute;
+	top: 40px;
+	left: 450px;
+}
+#money{
+	font-family: font;
+	font-size: 50px;
+	text-align: center;
+	color: white;
+	position: absolute;
+	top: 30px;
+	left: 570px;
+}
+#win{
+	width: 300px;
+	height: 130px;
+	position: absolute;
+	left: 530px;
+	top: 770px;
+}
+#leona{
+	width: 350px;
+	height: 150px;
+	margin-top:0px;
+	position: absolute;
+	bottom: -5px;
+	right: 2px;
+}
+#totalWin{
+	font-family: font;
+	text-align: center;
+	color: white;
+	bottom: 40px;
+	left: 33px;
+	position: absolute;
+}
+#Winwin{
+	text-align: center;
+	font-family: font;
+	font-size: 40px;
+	left: 60px;
+	bottom: -10px;
+	color: white;
+	position: absolute;
+}
+#bet{
+	width: 300px;
+	height: 130px;
+	position: absolute;
+	left: 150px;
+	top: 770px;
+
+}
+#fortune{
+	width: 350px;
+	height: 150px;
+	margin-top:0px;
+	position: absolute;
+	bottom: -5px;
+	right: 2px;
+}
+#totalBet{
+	font-family: font;
+	text-align: center;
+	color: white;
+	position: absolute;
+	left: 40px;
+	bottom: 40px;
+}
+#betBet{
+	text-align: center;
+	font-family: font;
+	font-size: 40px;
+	left: 100px;
+	bottom: -8px;
+	color: white;
+	position: absolute;
+}
+#betDiv{
+	width: 100%;
+	height: 59px;
+	text-align: center;
+}
+#left{
+	width: 60px;
+	height:80px;
+	position: absolute;
+	left: -20px;
+	bottom: 1px;
+}
+#right{
+	width: 60px;
+	height:80px;
+	position: absolute;
+	left: 205px;
+	bottom: 1px;
+}
+.box img{
+	width: 180px;
+	height: 180px;
+	margin:10px auto;
+}
